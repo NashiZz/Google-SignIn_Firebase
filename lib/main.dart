@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:google_login/pages/home_page.dart';
 
 void main() async{
+  //ใช้ในการเริ่มต้นใช้งาน Firebase ใน Flutter
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   runApp(const MyApp());
